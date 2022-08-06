@@ -8,7 +8,7 @@ const mysql = require("mysql");
 const log = require("./logger");
 
 //Added some comments
-
+console.log('Hello Node JS')
 const connection = mysql.createConnection({
     host: conf.mysql_db,
     user: conf.mysql_user,
